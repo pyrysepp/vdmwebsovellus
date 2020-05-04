@@ -26,6 +26,11 @@ export const About = () => {
             <h2>Tiimi</h2>
             <TiimiJäsen nimi={"Moii"}/>
         </div>
+        <div className="contact-container">
+            <p>
+                voimaaytimesta@gmail.com
+            </p>
+        </div>
         </>
     )
 }

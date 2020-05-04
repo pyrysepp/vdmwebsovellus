@@ -3,7 +3,7 @@ import './SwitchContainer.css'
 import {Switch, Route, withRouter 
 } from "react-router-dom"
 import {Home} from "./Home.js"
-import {Contact} from "./Contact.js"
+
 import {About} from "./About.js"
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -22,11 +22,8 @@ const SwitchContainer = ({location}) => {
         >
             <section className="route-section">
                 <Switch location={location}>
-                    <Route path="/Taustaa">
+                    <Route path="/meistä">
                         <About />
-                    </Route>
-                    <Route path="/contact">
-                        <Contact />
                     </Route>
                     <Route path="/">
                         <Home />
