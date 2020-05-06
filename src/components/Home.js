@@ -27,6 +27,9 @@ export const Home = () => {
             </div>
             <div className="video-container">
                 <p>Tähän tulee video?</p>
+                <div className="video-wrapper">
+                    <iframe className="responsive-iframe" src="https://www.youtube.com/embed/Bb9O99NUBwU" ></iframe>
+                </div>
             </div>
         </div>
         </div>

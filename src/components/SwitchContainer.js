@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './SwitchContainer.css'
 import {Switch, Route, withRouter 
 } from "react-router-dom"
-import {Home} from "./Home.js"
 
+
+import Turvallisuus from './Turvallisuus'
+import Ympäristö from './Ympäristö'
+import {Home} from "./Home.js"
+import CommentSection from './commentsection/CommentSection.js'
 import {About} from "./About.js"
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -13,6 +17,15 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 
 const SwitchContainer = ({location}) => {
+
+    useEffect(() => { 
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }, [location.key])
+      
+
     return(
        
         <TransitionGroup className="transition-group">
@@ -24,6 +37,13 @@ const SwitchContainer = ({location}) => {
                 <Switch location={location}>
                     <Route path="/meistä">
                         <About />
+                        <CommentSection />
+                    </Route>
+                    <Route path="/turvallisuus">
+                        <Turvallisuus />
+                    </Route>
+                    <Route path="/ympäristövaikutukset">
+                        <Ympäristö />
                     </Route>
                     <Route path="/">
                         <Home />
