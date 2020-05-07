@@ -3,8 +3,10 @@
     width: 100%;
     height: 1000px;
     margin-top: 60px;
-    background-image: url('./images/nuclear-power-plant-4535760_1920.jpg');
-    background-size: 100% 100%;
+    background-image: 
+                      url('./images/nuclear-power-plant-4535760_1920.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 .header-container {
     
@@ -17,7 +19,7 @@
 header {
     background-color: fuchsia;
     width: 40%;
-    margin: 50px 50px 150px 50px;
+    margin: 50px 50px 100px 50px;
     font-size: 2.5em;
     color: white;
     text-align: center;
@@ -31,17 +33,27 @@ header {
     flex-flow: column wrap;
 }
 .esittely {
+    text-align: center;
     padding: 30px;
     width: 60%;
     background-color: #0647A9;
     color: white;
-    
+}
+
+.video-section-container {
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(107,80,60);
+background: linear-gradient(180deg, rgba(107,80,60,1) 0%, rgba(184,140,91,1) 67%, rgba(138,126,150,1) 100%);
 }
 .video-container {
-    margin-top: 300px;;
+    margin-top: 100px;
     text-align: center;
+    color:white; 
     width: 60%;
-    margin-bottom: 50px;
+   margin-bottom: 100px;
 }
 .video-wrapper {
     width: 100%;
@@ -57,4 +69,51 @@ header {
     left: 0;
     right: 0;
     
+}
+.nuolialas {
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* Responsiivisuus */
+
+@media only screen and (max-width: 1400px) {
+    h1 {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    header {
+        width: 75%;
+    }
+    .esittely {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    header {
+        width: 75%;
+    }
+    .esittely {
+        width: 85%;
+    }
+    .video-container {
+        margin-top: 200px;
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 0.8em;
+    }
+    .video-container {
+        margin-top: 300px;
+    }
+    header {
+        width: 80%;
+    }
+    h1 {
+        font-size: 0.8em;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import nuolialas from './images/chevron-down-solid.svg'
 
 //Kotinäkymä eli tää on se mikä tulee ku avaa sivun, löytyy oleellisin tieto kampanjasta?
 
@@ -24,15 +25,22 @@ export const Home = () => {
                     Cronut la croix pickled copper mug. Typewriter bitters plaid chia lomo. Fam squid butcher keffiyeh cold-pressed skateboard mumblecore iPhone deep v tumeric pug migas lo-fi master cleanse. Bicycle rights man braid paleo, chillwave master cleanse next level wayfarers put a bird on it plaid marfa kickstarter actually seitan everyday carry. Everyday carry activated charcoal yuccie street art thundercats gentrify typewriter portland neutra 8-bit.
 
                 </p>
+
+                <h2>Katso kampanjavideo alta!</h2>
+                <img className="nuolialas" src={nuolialas} alt="nuoli"></img>
             </div>
-            <div className="video-container">
-                <p>Tähän tulee video?</p>
-                <div className="video-wrapper">
-                    <iframe className="responsive-iframe" src="https://www.youtube.com/embed/Bb9O99NUBwU" ></iframe>
+            </div>
+            </div>
+            <div className="video-section-container">
+                <div className="video-container">
+                    <h2>Kampanjavideo</h2>
+                    <div className="video-wrapper">
+                        <iframe className="responsive-iframe" src="https://www.youtube.com/embed/Bb9O99NUBwU" ></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
+        
+        
         </>
     )
 }
