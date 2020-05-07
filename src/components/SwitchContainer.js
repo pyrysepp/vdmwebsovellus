@@ -10,6 +10,7 @@ import {Home} from "./Home.js"
 import CommentSection from './commentsection/CommentSection.js'
 import {About} from "./About.js"
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import Faq from './Faq'
 
 
 // Tää komponentti hoitaa siirtymisten käsittelyn ja siistin fade animaation :D
@@ -44,6 +45,9 @@ const SwitchContainer = ({location}) => {
                     </Route>
                     <Route path="/ympäristövaikutukset">
                         <Ympäristö />
+                    </Route>
+                    <Route path="/faq">
+                        <Faq />
                     </Route>
                     <Route path="/">
                         <Home />
