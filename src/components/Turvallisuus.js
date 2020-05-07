@@ -5,7 +5,7 @@ const Turvallisuus = () => {
 
     return(
         <div>
-            
+         
         </div>
     )
 }
