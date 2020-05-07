@@ -1,0 +1,51 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: #dddddd;
+    color: #0647A9;
+    height: 200px;
+    
+
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.sources {
+    margin-left: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+a {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a:hover {
+    transform: translateY(-2px);
+  }
+
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
