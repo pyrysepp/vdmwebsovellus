@@ -3,7 +3,7 @@ import './Yleinen.css'
 
 const Ympäristö = () => {
     return(
-        <div className="container">
+        <div className="yleis-container">
             <div className="content">
             <div className="text-container">
                 <h2>Ydinvoimaloiden elinkaaripäästöt</h2>
