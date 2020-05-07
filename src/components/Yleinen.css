@@ -3,13 +3,14 @@
     margin-top: 60px;
     background-color: #e9e9e9;
     width: 100%;
-    height: 1000px;
+    height: 1500px;
 }
 
 .content-container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     flex-flow: column wrap;
 }
@@ -17,7 +18,7 @@
 .text-container {
     text-align: center;
     padding: 30px;
-    width: 60%;
+    width: 40%;
     background-color: #0647A9;
     color: white;
     margin-top: 20px;

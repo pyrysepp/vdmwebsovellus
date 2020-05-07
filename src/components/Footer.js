@@ -35,6 +35,9 @@ const Footer = () => {
             <div className="contact">
             <h2>Ota yhteyttä</h2>
             <Socials />
+            <p>
+                voimaaytimesta@gmail.com
+            </p>
             </div>
             <div className="sources">
             <p>Icons powered by: Fontawesome</p>

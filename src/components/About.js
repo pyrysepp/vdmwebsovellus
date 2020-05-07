@@ -21,7 +21,6 @@ export const About = () => {
             <h2>Taustaa</h2>
             <p>
             Olemme  informaatioverkostojen opiskelijoita Aalto-yliopistossa, ja olemme toteuttaneet kampanjan ydinvoiman puolesta sekä nettisivut kampanjalle Viestintä ja digitaalinen media sekä Verkkojulkaisemisen perusteet -kursseja varten.
-
             </p>
         </div>
         <div className="team-container">
@@ -30,11 +29,6 @@ export const About = () => {
             <TiimiJäsen nimi={"Viliina Nyyssönen"}/>
             <TiimiJäsen nimi={"Iida Lehikoinen"}/>
         </div>
-        </div>
-        <div className="contact-container">
-            <p>
-                voimaaytimesta@gmail.com
-            </p>
         </div>
         </>
     )
