@@ -1,8 +1,9 @@
 import React from 'react'
+import './Yleinen.css'
 
 const Ympäristö = () => {
     return(
-        <div>
+        <div className="text-container">
                 <h2>Ydinvoimaloiden elinkaaripäästöt</h2>
 
                 <p>Ydinvoimaloiden elinkaaripäästöt vertautuvat tuulivoimaan, sillä vähäiset kasvihuonekaasu päästöt aiheutuvat ydinvoiman tuotantoketjussa materaalien ja polttoaineiden hankinnasta, laitevalmistuksesta, kuljetuksista ja laitosten rakentamisesta ja purkamisesta. Ydinvoimalla voidaan tuottaa suuri määriä energiaa todella pienillä hiilidioksidipäästöillä, ja siksi se on hyvä vaihtoehto pyrkimyksissä kohti dramaattisia toimia vaativia ilmastotavoitteita. 
