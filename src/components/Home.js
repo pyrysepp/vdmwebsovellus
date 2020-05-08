@@ -36,7 +36,7 @@ export const Home = () => {
                 <div className="video-container">
                     <h2>Kampanjavideo</h2>
                     <div className="video-wrapper">
-                        <iframe className="responsive-iframe" src="https://www.youtube-nocookie.com/embed/Bb9O99NUBwU" ></iframe>
+                        <iframe title="kampanjavideo" className="responsive-iframe" src="https://www.youtube-nocookie.com/embed/Bb9O99NUBwU" ></iframe>
                     </div>
                 </div>
             </div>

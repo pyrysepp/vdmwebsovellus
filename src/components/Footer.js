@@ -7,23 +7,31 @@ import {
     faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css'
+
 const Socials = () => {
     return(
     <div className="social-icons">
     <a
-    href=""
-    className="facebook"
+    href="#"
+    className="facebook a-socials"
     >
     <FontAwesomeIcon icon={faFacebook} size="2x" />
     </a>
-    <a href="" className="twitter">
+    <a href="#" 
+    className="twitter a-socials">
     <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a>
     <a
-    href=""
-    className="instagram"
+    href="#"
+    className="instagram a-socials"
     >
     <FontAwesomeIcon icon={faInstagram} size="2x" />
+    </a>
+    <a
+    href="#"
+    className="youtube a-socials"
+    >
+    <FontAwesomeIcon icon={faYoutube} size="2x" />
     </a>
     </div>
     )

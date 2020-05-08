@@ -25,12 +25,12 @@ footer {
     flex-flow: column wrap;
     
 }
-a {
+.a-socials {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
   }
-  a:hover {
+  .a-socials:hover {
     transform: translateY(-2px);
   }
 
