@@ -6,7 +6,7 @@
 }
 
 .about-container {
-    margin-top: 70px;
+    margin-top: 100px;
     text-align: center;
     padding: 30px;
     width: 50%;
@@ -26,10 +26,10 @@
     padding-bottom: 20px;
     color: white;
 }
-.h2 {
+h2 {
     color: white
 }
-.p {
+p {
     color: white
 }
 .contact-container {
