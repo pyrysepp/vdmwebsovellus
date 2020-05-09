@@ -16,6 +16,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    position: relative;
   }
   .navbar li {
     margin-left: 40px;
@@ -58,6 +59,13 @@
   }
   
 }
-/* @media only screen and (max-width: 400px) {
-  .navbar li {}
-} */
+ @media only screen and (max-width: 400px) {
+  .navbar li {
+    margin-left: 15px;
+    padding: 5px;
+  }
+
+  .esittely {
+    padding: 10px;
+  }
+} 
