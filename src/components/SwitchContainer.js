@@ -43,7 +43,6 @@ const SwitchContainer = ({location}) => {
                 <Switch location={location}>
                     <Route path="/meistä">
                         <About />
-                        <CommentSection />
                     </Route>
                     <Route path="/turvallisuus">
                         <Turvallisuus />
@@ -53,6 +52,7 @@ const SwitchContainer = ({location}) => {
                     </Route>
                     <Route path="/faq">
                         <Faq />
+                        <CommentSection />
                     </Route>
                     <Route path="/">
                         <Home />

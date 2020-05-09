@@ -6,6 +6,16 @@ const Faq = () => {
 
     return(
         <div className="backround-container">
+            <div className="faq-header-container">
+                <div className="faq-header">
+                    <h2>
+                        Keskustelu
+                    </h2>
+                    <p>
+                        Tältä sivulta löydät usein kysyttyjä kysymyksiä ja pääset osallistumaan keskusteluun jakamalla oman mielipiteesi sivun lopusta löytyvällä lomakkeella.
+                    </p>
+                </div>
+            </div>
             <div className="faq-container">
                 <div className="answer-container">
                     <h3>

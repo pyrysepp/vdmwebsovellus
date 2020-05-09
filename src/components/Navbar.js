@@ -14,7 +14,7 @@ const Navbar = () => {
             <li><NavLink to="/meistä" className="navlink" activeClassName="navlink-active">meistä</NavLink></li>
             <li><NavLink to="/turvallisuus" className="navlink" activeClassName="navlink-active">turvallisuus</NavLink></li>
             <li><NavLink to="/ympäristövaikutukset" className="navlink" activeClassName="navlink-active">ympäristövaikutukset</NavLink></li>
-            <li><NavLink to="/faq" className="navlink" activeClassName="navlink-active">faq</NavLink></li>   
+            <li><NavLink to="/faq" className="navlink" activeClassName="navlink-active">keskustelu</NavLink></li>   
         </ul>
     </nav> 
     )

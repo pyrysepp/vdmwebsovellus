@@ -60,6 +60,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to top right,#e9e9e9, fuchsia);
 }
 .inputfield {
     text-align: center;
@@ -81,7 +82,7 @@ form {
     color: white;
 }
 textarea {
-    font-size: 1.3em;
+    font-size: 1.0em;
     font-family: 'Roboto';
     padding: 10px;
     outline: none;

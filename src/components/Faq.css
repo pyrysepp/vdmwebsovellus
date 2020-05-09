@@ -18,10 +18,28 @@
 .answer-container {
     text-align: center;
     padding: 30px;
-    width: 30%;
+    width: 35%;
     background-color: #0647A9;
     color: white;
     margin-top: 20px;
+}
+
+.faq-header-container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.faq-header {
+    background-color: fuchsia;
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1230px) {

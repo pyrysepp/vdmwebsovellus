@@ -38,7 +38,7 @@ header {
     width: 60%;
     background-color: #0647A9;
     color: white;
-}
+} 
 
 .video-section-container {
     margin-top: 0px;
@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: center;
     background: rgb(107,80,60);
-background: linear-gradient(180deg, rgba(107,80,60,1) 0%, rgba(184,140,91,1) 67%, rgba(138,126,150,1) 100%);
+    background: linear-gradient(180deg, rgba(107,80,60,1) 0%, rgba(184,140,91,1) 67%, rgba(138,126,150,1) 100%);
 }
 .video-container {
     margin-top: 100px;
