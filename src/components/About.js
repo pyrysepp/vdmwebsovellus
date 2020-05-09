@@ -25,9 +25,9 @@ export const About = () => {
         </div>
         <div className="team-container">
             <h2>Tiimi</h2>
-            <TiimiJäsen nimi={"Pyry Seppälä"}/>
-            <TiimiJäsen nimi={"Viliina Nyyssönen"}/>
-            <TiimiJäsen nimi={"Iida Lehikoinen"}/>
+                <TiimiJäsen nimi={"Pyry Seppälä"}/>
+                <TiimiJäsen nimi={"Viliina Nyyssönen"}/>
+                <TiimiJäsen nimi={"Iida Lehikoinen"}/>
         </div>
         </div>
         </>
