@@ -59,7 +59,7 @@ const Faq = () => {
                 </div>
                 <div className="answer-container">
                     <h3>
-                        Miten ydinvoimalaonnettomuuksilta voitaisiin välttyä?
+                        Miten ydinvoimalaonnettomuuksilta vältytään?
                     </h3>
                     <p>
                         Jo ydinvoimalaitosten suunnitteluvaiheessa varaudutaan erilaisiin onnettomuus- ja virhetilanteisiin, ja niiden varalle on kehitetty turvajärjestelmiä. Näin yksittäisten vikojen tai virheiden kehittyminen onnettomuuksiksi on estetty luotettavasti. Ydinvoimaloiden turvallisuus kehittyy koko aja uuden teknologian myötä, ja lisäksi Säteilyturvakeskus (STUK) varmistaa valvonnallaan, että kaikkia olemassa olevia turvallisuusmääräyksiä noudatetaan. 
