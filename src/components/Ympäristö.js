@@ -29,6 +29,14 @@ const Ympäristö = () => {
                 <p>Ydinvoimalaitoksista ympäristöön, esimerkiksi ilmaan ja veteen, joutuville päästöille on asetettu päästörajat. Päästöjä valvotaan säännöllisesti mittauksilla ydinvoimalaitosten ympäristöstä erilaisten säteilyannos- ja radioaktiivisuusmittausten avulla. Suomessa ydinvoimalaitosten ympäristövaikutukset ovat koko käyttöajan pieniä, ja päästöt vain murto-osan sallituista arvoista. Sallittu radioaktiivisten aineiden päästö ympäristöön määritellään siten, että kukaan laitoksen lähistöllä asuva ei voi saada päästöjen aiheuttamana suurempaa kuin 0,1 millisievertin säitelyannosta vuodessa. Suomessa nämä säitelyannokset ovat kuitenkin olleet vain muutaman prosentin sallitusta raja-arvosta, ja esimerkiksi luonnon taustasäteily aiheuttaa suomalaisille keskimäärin 3,7 millisievertin säitelyannoksen vuodessa. 
                 </p>
             </div>
+            <div className="text-container">
+                <h2>Lue lisää</h2>
+                <p>
+                    <a href="https://www.stuk.fi/stuk-valvoo/ympariston-sateilyvalvonta">Ympäristön säitelyvalvonta (STUK)</a>
+                    <br/> <br/>
+                    <a href="https://www.stuk.fi/aiheet/ydinjatteet/kaytetyn-polttoaineen-loppusijoitus-suomessa">Ydinjätteen loppusijoitus (STUK)</a>
+                </p>
+            </div>
             </div>
         </div>
     )
