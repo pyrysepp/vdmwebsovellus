@@ -32,7 +32,7 @@ const Turvallisuus = () => {
                 <p>
                 Ydinvoimaloissa pyritään ehkäisemään erilaisia ongelmatilanteita, jotta mahdollisilta vaaratilanteilta pystyttäisiin välttymään mahdollisimman tehokkaasti. Korkeatasoisesta laadunvarmistuksesta huolimatta ydinvoimalaitoksillakin esiintyy laitevikoja ja käyttöhenkilökunnan virheitä. Tämä on otettu huomioon laitosten suunnittelussa, ja yksittäisten vikojen ja virheiden kehittyminen onnettomuuksiksi on estetty luotettavasti. Laitosten suunnittelussa ja käytössä on varauduttu myös onnettomuustilanteisiin, ja niiden varalta laitoksissa on erityisiä turvallisuusjärjestelmiä. 
                 <br/> <br/> 
-                Ydinvoimaloidenkin turvallisuutta kehitetään koko ajan, ja esimerkiksi rakenteilla oleva Olkuiluoto 3 -ydinvoimala on varautunut terrori-iskuihin ja sabotaasiin siten, että tällaisissa tilanteissa pystytään ehkäisemään suuria onnettomuuksia ja haittaa ympäristölle. 
+                Ydinvoimaloidenkin turvallisuutta kehitetään koko ajan, ja esimerkiksi rakenteilla oleva Olkiluoto 3 -ydinvoimala on varautunut terrori-iskuihin ja sabotaasiin siten, että tällaisissa tilanteissa pystytään ehkäisemään suuria onnettomuuksia ja haittaa ympäristölle. 
                 </p>
             </div>
             <div className="text-container">

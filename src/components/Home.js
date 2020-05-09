@@ -17,14 +17,7 @@ export const Home = () => {
         <div className="content">
             <div className="esittely">
                 <h2>Kampanjan esittely</h2>
-                <p>Kampanjamme “Hiilineutraalia voimaa ytimestä” kampanjoi ydinvoiman puolesta, ja organisaatio, 
-                    jossa toimimme, on Teollisuuden voima (TVO). Koemme, että ydinvoiman hyödyntäminen on välttämätöntä
-                     ottaen huomioon nykyisen tilanteen ilmastonmuutoksen suhteen: fossiilisista energiamuodoista täytyy 
-                     luopua, jotta ilmastonmuutos voitaisiin pysäyttää. Ydinvoima voisi toimia hyvänä väliaikaisena ja 
-                     nopeana korvikkeena fossiilisille energiamuodoille, sillä sen päästöt ovat todella pienet. Kampanjamme 
-                     tavoite on ydinvoimaan maineen ja suosion parantaminen. Haluamme laittaa lopun epämääräisille olettamuksille 
-                     ydinvoimasta korvaamalla ne faktoilla ja tutkimustiedolla.
-
+                <p> Kampanjamme “Hiilineutraalia voimaa ytimestä” kampanjoi ydinvoiman puolesta, ja organisaatio, jossa toimimme, on Teollisuuden voima. Kampanjamme yksi ydinviesteistä on ydinvoiman hyödyt ilmastonmuutoksen ehkäisyssä. Ydinvoiman hyödyntäminen on välttämätöntä ottaen huomioon nykyisen tilanteen ilmastonmuutoksen suhteen: fossiilisista energiamuodoista täytyy luopua, jotta ilmastonmuutos voitaisiin pysäyttää. Ydinvoima voisi toimia hyvänä väliaikaisena ja nopeana korvikkeena fossiilisille energiamuodoille, sillä sen päästöt ovat todella pienet. Kampanjamme tavoite on ydinvoimaan maineen ja suosion parantaminen. Kampanjamme tavoitteena on laittaa loppu epämääräisille olettamuksille ydinvoimasta korvaamalla ne faktoilla ja tutkimustiedolla.
                 </p>
 
                 <h2>Katso kampanjavideo alta!</h2>
