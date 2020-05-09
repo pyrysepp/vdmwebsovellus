@@ -29,7 +29,19 @@
     color: white;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 800px){
+    .text-container {
+        width: 60%;
+    }
+    .yleis-container {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 650 px) {
+    .yleis-container {
+        padding-top: 10px;
+    }
     .text-container {
         width: 60%;
     }
@@ -38,5 +50,8 @@
 @media only screen and (max-width: 600px){
     .text-container {
         width: 80%;
+    }
+    .yleis-container {
+        padding-top: 40px;
     }
 }
