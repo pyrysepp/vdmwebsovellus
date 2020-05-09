@@ -20,7 +20,7 @@ export const About = () => {
         <div className="about-container">
             <h2>Taustaa</h2>
             <p>
-            Olemme  informaatioverkostojen opiskelijoita Aalto-yliopistossa, ja olemme toteuttaneet kampanjan ydinvoiman puolesta sekä nettisivut kampanjalle Viestintä ja digitaalinen media sekä Verkkojulkaisemisen perusteet -kursseja varten.
+            Olemme informaatioverkostojen opiskelijoita Aalto-yliopistosa ja kampanjamme "Hiilineutraalia voimaa ytimestä" on toteutettu kurssille Viestintä ja digitaalinen media. Lisäksi olemme tuottaneet verkkosivut kampanjalle Verkkojulkaisemisen perusteet -kurssia varten. 
             </p>
         </div>
         <div className="team-container">

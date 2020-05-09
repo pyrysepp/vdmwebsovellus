@@ -41,9 +41,9 @@ const Footer = () => {
         
         <footer>
             <div className="contact">
-            <h2>Ota yhteyttä</h2>
+            <h2 className="padding">Ota yhteyttä</h2>
             <Socials />
-            <p>
+            <p className="padding">
                 voimaaytimesta@gmail.com
             </p>
             </div>

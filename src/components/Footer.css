@@ -17,8 +17,12 @@ footer {
 .contact {
     display: flex;
     flex-flow: column wrap;
-    
 }
+    
+.padding {
+  padding-left: 15px;
+}
+
 .sources {
     margin-left: 100px;
     display: flex;
