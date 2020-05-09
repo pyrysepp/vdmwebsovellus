@@ -1,17 +1,18 @@
 .backround-container {
-    margin-top: 60px;
+    padding-top: 60px;
     background-color: #e9e9e9;
     width: 100%;
-    height: 1500px;
     background-image: linear-gradient(to bottom right,#e9e9e9, fuchsia);
+    padding-bottom: 60px;
 }
 
 .faq-container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
     flex-flow: row wrap;
+    text-align: center;
 }
 
 .answer-container {
@@ -21,4 +22,27 @@
     background-color: #0647A9;
     color: white;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 1230px) {
+    .backround-container {
+        padding-top: 70px;
+    }
+    .faq-container {
+        width: 100%;
+    }
+    .answer-container {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .backround-container {
+        padding-top: 90px;
+    }
+    .faq-container {
+        width: 100%;
+    }
+    .answer-container {
+        width: 75%;
+    }
 }
