@@ -5,7 +5,7 @@ const Turvallisuus = () => {
 
     return(
         <div className="yleis-container">
-            <div className="content">
+            <div className="content-container">
             <div className="text-container">
                 <h2>Ydinvoiman turvallisuus Suomessa</h2>
 
