@@ -1,8 +1,10 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
 import './Navbar.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
-//navigointi  sivun yläosaan.
+//navigointi  sivun eri osioihin.
 
 
 
@@ -10,7 +12,7 @@ const Navbar = () => {
     return(
     <nav className="navbar">
         <ul>
-            <li><NavLink to="/" className="navlink-home"  >Koti</NavLink></li> 
+            <li><NavLink to="/" className="navlink-home"  ><FontAwesomeIcon icon={faHome}  /></NavLink></li> 
             <li><NavLink to="/turvallisuus" className="navlink" activeClassName="navlink-active">turvallisuus</NavLink></li>
             <li><NavLink to="/ympäristövaikutukset" className="navlink" activeClassName="navlink-active">ympäristövaikutukset</NavLink></li>
             <li><NavLink to="/faq" className="navlink" activeClassName="navlink-active">keskustelu</NavLink></li>

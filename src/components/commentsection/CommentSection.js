@@ -5,14 +5,14 @@ import './CommentSection.css'
 
 let exampleComments = [
     {
-        "username": "rouva Y",
-        "value": "Ihan jeba",
+        "username": "Pirjo",
+        "value": "Tykkään tosi paljon!",
         "likes": 0,
         "id": 0
     },
     {
-        "username": "herra X",
-        "value": "Tosi jees!",
+        "username": "Risto",
+        "value": "Paras!",
         "likes": 0,
         "id" :   1
     }
