@@ -37,6 +37,14 @@ const Ympäristö = () => {
                     <a href="https://www.stuk.fi/aiheet/ydinjatteet/kaytetyn-polttoaineen-loppusijoitus-suomessa">Ydinjätteen loppusijoitus (STUK)</a>
                 </p>
             </div>
+            <div className="text-container">
+                <h2>Lähteet</h2>
+                <p>
+                    <a href="https://www.stuk.fi/stuk-valvoo/ympariston-sateilyvalvonta">Ympäristön säitelyvalvonta (STUK)</a>
+                    <br/> <br/>
+                    <a href="https://www.stuk.fi/aiheet/ydinjatteet/kaytetyn-polttoaineen-loppusijoitus-suomessa">Ydinjätteen loppusijoitus (STUK)</a>
+                </p>
+            </div>
             </div>
         </div>
     )
