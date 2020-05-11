@@ -14,7 +14,6 @@ import Faq from './Faq'
 
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import Mediassa from './Mediassa'
 
 // Tää komponentti hoitaa siirtymisten käsittelyn ja siistin fade animaation :D
 // Eli tästä komponentista löytyy noi muut osio-komponentit.
