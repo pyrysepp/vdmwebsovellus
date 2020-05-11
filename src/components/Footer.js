@@ -17,18 +17,18 @@ const Socials = () => {
     >
     <FontAwesomeIcon icon={faFacebook} size="2x" />
     </a>
-    <a href="#" 
+    <a href="https://twitter.com/voimaaytimesta" 
     className="twitter a-socials">
     <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a>
     <a
-    href="#"
+    href="https://www.instagram.com/voimaaytimesta/"
     className="instagram a-socials"
     >
     <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a>
     <a
-    href="#"
+    href="https://www.youtube.com/watch?v=Bb9O99NUBwU&feature=youtu.be"
     className="youtube a-socials"
     >
     <FontAwesomeIcon icon={faYoutube} size="2x" />
