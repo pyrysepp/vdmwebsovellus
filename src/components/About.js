@@ -20,7 +20,8 @@ export const About = () => {
         <div className="about-container">
             <h2>Taustaa</h2>
             <p>
-            Olemme informaatioverkostojen opiskelijoita Aalto-yliopistosa ja kampanjamme "Hiilineutraalia voimaa ytimestä" on toteutettu kurssille Viestintä ja digitaalinen media. Lisäksi olemme tuottaneet verkkosivut kampanjalle Verkkojulkaisemisen perusteet -kurssia varten. 
+            Kampanjatiimi koostuu informaatioverkostojen opiskelijoista Aalto-yliopistosta ja kampanja "Hiilineutraalia voimaa ytimestä" on toteutettu kurssille Viestintä ja digitaalinen media. Lisäksi olemme tuottaneet verkkosivut kampanjalle Verkkojulkaisemisen perusteet -kurssia varten. 
+            Organisaatio, jolle suunnittelimme kampanjan on Teollisuuden Voima (TVO). 
             </p>
         </div>
         <div className="team-container">

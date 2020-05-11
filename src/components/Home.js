@@ -16,10 +16,9 @@ export const Home = () => {
         </div>
         <div className="content">
             <div className="esittely">
-                <h2>Kampanjan esittely</h2>
-                <p> Kampanjamme “Hiilineutraalia voimaa ytimestä” kampanjoi ydinvoiman puolesta, ja organisaatio, jossa toimimme, on Teollisuuden voima. Kampanjamme yksi ydinviesteistä on ydinvoiman hyödyt ilmastonmuutoksen ehkäisyssä. Ydinvoiman hyödyntäminen on välttämätöntä ottaen huomioon nykyisen tilanteen ilmastonmuutoksen suhteen: fossiilisista energiamuodoista täytyy luopua, jotta ilmastonmuutos voitaisiin pysäyttää. Ydinvoima voisi toimia hyvänä väliaikaisena ja nopeana korvikkeena fossiilisille energiamuodoille, sillä sen päästöt ovat todella pienet. Kampanjamme tavoite on ydinvoimaan maineen ja suosion parantaminen. Kampanjamme tavoitteena on laittaa loppu epämääräisille olettamuksille ydinvoimasta korvaamalla ne faktoilla ja tutkimustiedolla.
-                </p>
-
+                <h2>Hiilineutraalin energiantuotannon puolesta</h2>
+                <h2>#voimaaytimestä</h2>
+                <p> Kampanjamme “Hiilineutraalia voimaa ytimestä” kampanjoi ydinvoiman ja hiilineutraalin energiantuotannon puolesta. Ydinvoimalla on ratkaiseva rooli ilmastonmuutoksen torjunnassa ja ilmastotavoitteiden saavuttamisessa, kuten hallituksen tavoitteessa hiilineutraalista Suomesta vuonna 2035. Ydinvoiman hyödyntäminen on välttämätöntä ottaen huomioon nykyisen tilanteen ilmastonmuutoksen suhteen: fossiilisista energiamuodoista täytyy luopua, jotta ilmastonmuutos voitaisiin pysäyttää. Ydinvoima voisi toimia hyvänä väliaikaisena ja nopeana korvikkeena fossiilisille polttoaineille, sillä sen kasvihuonekaasupäästöt ovat todella pienet. Laitamme lopun epämääräisille olettamuksille ydinvoimasta korvaamalla ne faktoilla ja tutkimustiedolla. Lue lisää ydinvoiman turvallisuudesta ja ympäristöystävällisyydestä sivuiltamme, ja osallistu keskusteluun käyttämällä hashtagia #voimaaytimestä! </p>
                 <h2>Katso kampanjavideo alta!</h2>
                 <img className="nuolialas" src={nuolialas} alt="nuoli"></img>
             </div>
