@@ -40,9 +40,22 @@ const Ympäristö = () => {
             <div className="text-container">
                 <h2>Lähteet</h2>
                 <p>
-                    <a href="https://www.stuk.fi/stuk-valvoo/ympariston-sateilyvalvonta">Ympäristön säitelyvalvonta (STUK)</a>
-                    <br/> <br/>
-                    <a href="https://www.stuk.fi/aiheet/ydinjatteet/kaytetyn-polttoaineen-loppusijoitus-suomessa">Ydinjätteen loppusijoitus (STUK)</a>
+                    <a href="https://www.fortum.fi/tietoa-meista/yhtiomme/energiantuotantomme/voimalaitoksemme/loviisan-voimalaitos/ymparistovaikutukset">Fortum (ympäristövaikutukset)</a>
+                    <br></br>
+                    <a href="https://www.fortum.fi/media/2016/11/ydinvoiman-kaytetyn-polttoaineen-loppusijoitus-hoidetaan-suomessa-huolella">Fortum (loppusijoitus)</a>
+                    <br></br>
+                    <a href="https://www.tvo.fi/vastuullisuus/ymparistojailmastoystavallisyys/ymparistovaikutukset.html">Teollisuuden voima</a>
+                    <br></br>
+                    <a href="https://energiamaailma.fi/mista-virtaa/ydinvoima/">Energiamaailma</a>
+                    <br></br>
+                    <a href="https://www.vattenfall.fi/sahkosopimukset/tuotantomuodot/ydinvoima/">Vattenfall</a>
+                    <br></br>
+                    <a href="https://ilmasto-opas.fi/fi/ilmastonmuutos/hillinta/-/artikkeli/ed54e5ef-47f6-41b9-bb5d-8d7b72323571/ydinvoima-on-vahapaastoista-energiaa.html#h_Ydins_hk_n_elinkaarip_st_t_vertautuvat_uusiutuvilla_energial_hteill_tuotettuihin_p_st_ihin
+">Ilmasto-opas</a>
+                    <br></br>
+                    <a href="https://ats-fns.fi/images/files/general/ydinenergia_ja_suomi_2006.pdf">Suomen atomiteknillinen seura: Ydinenergia ja Suomi</a>
+                    <br></br>
+                    <a href="https://energia.fi/files/277/ht_ydinvoimasta.pdf">Energiateollisuus</a>
                 </p>
             </div>
             </div>

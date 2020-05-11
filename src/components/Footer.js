@@ -12,7 +12,7 @@ const Socials = () => {
     return(
     <div className="social-icons">
     <a
-    href="#"
+    href="https://www.facebook.com/Hiilineutraalia-voimaa-ytimest%C3%A4-111906453851940/?modal=admin_todo_tour&ref=admin_to_do_step_controller"
     className="facebook a-socials"
     >
     <FontAwesomeIcon icon={faFacebook} size="2x" />
