@@ -12,7 +12,7 @@ const Faq = () => {
                         Keskustelu
                     </h2>
                     <p>
-                        Tältä sivulta löydät usein kysyttyjä kysymyksiä ja pääset osallistumaan keskusteluun jakamalla oman mielipiteesi sivun lopusta löytyvällä lomakkeella.
+                        Tältä sivulta löydät usein kysyttyjä kysymyksiä, linkkejä ydinvoimaan liittyviin artikkeleihin ja pääset osallistumaan keskusteluun jakamalla oman mielipiteesi sivun lopusta löytyvällä lomakkeella.
                     </p>
                 </div>
             </div>
@@ -63,6 +63,20 @@ const Faq = () => {
                     </h1>
                     <p>
                         Jo ydinvoimalaitosten suunnitteluvaiheessa varaudutaan erilaisiin onnettomuus- ja virhetilanteisiin, ja niiden varalle on kehitetty turvajärjestelmiä. Näin yksittäisten vikojen tai virheiden kehittyminen onnettomuuksiksi on estetty luotettavasti. Ydinvoimaloiden turvallisuus kehittyy koko aja uuden teknologian myötä, ja lisäksi Säteilyturvakeskus (STUK) varmistaa valvonnallaan, että kaikkia olemassa olevia turvallisuusmääräyksiä noudatetaan. 
+                    </p>
+                </div>
+                <div className="answer-container">
+                    <h1>Linkkejä artikkeleihin</h1>
+                    <p>
+                        <a href="https://www.stuk.fi/aiheet/ydinjatteet/ydinjatteet-suomessa">HS pääkirjoitus (20.4.2020)</a>
+                        <br/><br/>
+                        <a href="https://www.hs.fi/mielipide/art-2000006421287.html">HS lukijan mielipide (28.2.2020)</a>
+                        <br/><br/>
+                        <a href="https://www.hs.fi/mielipide/art-2000006212935.html">HS vieraskynä (23.8.2019)</a>
+                        <br/><br/>
+                        <a href="https://www.hs.fi/paakirjoitukset/art-2000006340020.html">HS pääkirjoitus (12.12.2019)</a>
+                        <br/><br/>
+                        <a href="https://yle.fi/uutiset/3-11334230">Yle artikkeli (5.5.2020)</a>
                     </p>
                 </div>
             </div>

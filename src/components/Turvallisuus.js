@@ -43,6 +43,18 @@ const Turvallisuus = () => {
                     <a href="https://www.stuk.fi/stuk-valvoo/ydinturvallisuus">Ydinturvallisuus (STUK)</a>
                 </p>
             </div>
+            <div className="text-container">
+                <h2>Lähteet</h2>
+                <p>
+                    <a href="https://www.julkari.fi/bitstream/handle/10024/125197/katsaus-ydinvoimalaitosten-turvallisuus-7-2008.pdf?sequence=1">STUK (ydinvoimalaitosten turvallisuus)</a>
+                    <br></br>
+                    <a href="https://studio.kauppalehti.fi/fennovoima-olemme-osa-ratkaisua/vaarallinen-vaarallisempi-ydinvoima">Kauppalehti & Fennovoima (ydinvoiman turvallisuus)</a>
+                    <br></br>
+                    <a href="http://www.posiva.fi/loppusijoitus/ydinjatehuolto/mita_ydinjate_on#.XqAp3sgzbIU">Posiva (ydinjäte)</a>
+                    <br/> <br/>
+                    <a href="https://www.stuk.fi/aiheet/ydinjatteet/ydinjatteet-suomessa">STUK (ydinjätteet Suomessa)</a>
+                </p>
+            </div>
             </div>
         </div>
     )
