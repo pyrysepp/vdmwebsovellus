@@ -1,6 +1,6 @@
 import React from 'react'
 import './Yleinen.css'
-
+import paastot from './images/co2elinkaaripäästöt.jpg'
 const Ympäristö = () => {
     return(
         <div className="yleis-container">
@@ -10,7 +10,9 @@ const Ympäristö = () => {
 
                 <p>Ydinvoimaloiden elinkaaripäästöt vertautuvat tuulivoimaan, sillä vähäiset kasvihuonekaasu päästöt aiheutuvat ydinvoiman tuotantoketjussa materaalien ja polttoaineiden hankinnasta, laitevalmistuksesta, kuljetuksista ja laitosten rakentamisesta ja purkamisesta. Ydinvoimalla voidaan tuottaa suuri määriä energiaa todella pienillä hiilidioksidipäästöillä, ja siksi se on hyvä vaihtoehto pyrkimyksissä kohti dramaattisia toimia vaativia ilmastotavoitteita. 
                 </p>
+                <img className="responsive-image" src={paastot} alt="kaavio"/>
             </div>
+           
             <div className="text-container">
                 <h2>Sähköntuotanto ydinvoimalla</h2>
 
