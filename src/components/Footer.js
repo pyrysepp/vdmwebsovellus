@@ -12,23 +12,23 @@ const Socials = () => {
     return(
     <div className="social-icons">
     <a
-    href="https://www.facebook.com/Hiilineutraalia-voimaa-ytimest%C3%A4-111906453851940/?modal=admin_todo_tour&ref=admin_to_do_step_controller"
+    href="https://www.facebook.com/Hiilineutraalia-voimaa-ytimest%C3%A4-111906453851940/?modal=admin_todo_tour&ref=admin_to_do_step_controller" target="_blank" rel="noopener noreferrer"
     className="facebook a-socials"
     >
     <FontAwesomeIcon icon={faFacebook} size="2x" />
     </a>
-    <a href="https://twitter.com/voimaaytimesta" 
+    <a href="https://twitter.com/voimaaytimesta" target="_blank" rel="noopener noreferrer"
     className="twitter a-socials">
     <FontAwesomeIcon icon={faTwitter} size="2x" />
     </a>
     <a
-    href="https://www.instagram.com/voimaaytimesta/"
+    href="https://www.instagram.com/voimaaytimesta/" target="_blank" rel="noopener noreferrer"
     className="instagram a-socials"
     >
     <FontAwesomeIcon icon={faInstagram} size="2x" />
     </a>
     <a
-    href="https://www.youtube.com/watch?v=Bb9O99NUBwU&feature=youtu.be"
+    href="https://www.youtube.com/watch?v=Bb9O99NUBwU&feature=youtu.be" target="_blank" rel="noopener noreferrer"
     className="youtube a-socials"
     >
     <FontAwesomeIcon icon={faYoutube} size="2x" />
