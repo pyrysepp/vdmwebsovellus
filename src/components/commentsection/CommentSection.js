@@ -3,6 +3,15 @@ import InputField from './InputField.js'
 import CommentField from './CommentField.js'
 import './CommentSection.css'
 
+
+/*
+Interaktiivinen sisältö kampanjasivulle
+Kommenttiosiossa käyttäjä voi jättää kommentin sivustolle valitsemallaan käyttäjänimellä sekä 
+katsoa muiden jättämiä kommentteja. Käyttäjä voi tykätä kommentista. Tykkäykset tallentuvat kommentti objektiin.
+*/
+
+
+
 let exampleComments = [
     {
         "username": "Pirjo",
@@ -21,6 +30,8 @@ let exampleComments = [
 const CommentSection = () => {
 
    
+    // Tekstikenttien sisältöä käsittelevät statet sekä onChange -funktiot.
+
     const [inputText, setInput] = useState('')
     const [userName, setUsername] = useState('')
 
@@ -31,8 +42,14 @@ const CommentSection = () => {
         setUsername(event.target.value)
     }
 
+    // Kommenttilistaa käsittelevä state. Sisältää näkyvissä olevan listan kommenteista.
+
     const [comments, setComments] = useState(exampleComments)
 
+    // Uuden kommentin lisäävä funktio
+    // Funktio luo uuden kommentin inputtien sisällöstä sekä asettaa kommenttilistaksi uuden listan,
+    // jossa on vanha lista + uusi kommentti
+    
     const addComment = (event) => {
         event.preventDefault()
         if(inputText !== '') {

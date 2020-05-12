@@ -1,6 +1,9 @@
 import React from 'react'
 import './Yleinen.css'
 import paastot from './images/co2elinkaaripäästöt.jpg'
+
+// Osio, joka sisältää tietoa ydinvoiman ympäristövaikutuksista.
+
 const Ympäristö = () => {
     return(
         <div className="yleis-container">

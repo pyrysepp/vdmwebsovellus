@@ -7,7 +7,7 @@ import SwitchContainer from "./components/SwitchContainer"
 
 
 
-
+// Sovelluksen ylin komponentti, joka renderöidään index.js:ssä.
 
 
 function App() {

@@ -15,11 +15,15 @@ import Faq from './Faq'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 
-// Tää komponentti hoitaa siirtymisten käsittelyn ja siistin fade animaation :D
-// Eli tästä komponentista löytyy noi muut osio-komponentit.
-
+// Komponentti hoitaa sivujen välisen siirtymisen käyttämällä react routeria.
+/* 
+Komponentissa on myös siirtymisen yhteydessä tapahtuva efekti, joka on toteutettu react-transition groupilla
+sekä CSSTransitionilla. 
+*/
 
 const SwitchContainer = ({location}) => {
+
+//Hookki joka skrollaa ikkunan ylös location.keyn muuttuessa eli kun navigointielementtiä (esim. koti) painetaan.
 
     useEffect(() => { 
         window.scrollTo({

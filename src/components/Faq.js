@@ -1,6 +1,7 @@
 import React from 'react'
 import './Faq.css'
 
+// Usein kysytyt kysymykset osio, joka sisältää kysymyksiä, joihin sivulla kävijä todennäköisesti haluaa vastauksia.
 
 const Faq = () => {
 

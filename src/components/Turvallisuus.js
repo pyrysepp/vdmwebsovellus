@@ -1,7 +1,9 @@
 import React from 'react'
 
+// Osio, joka sisältää tietoa ydinvoiman turvallisuudesta.
 
 const Turvallisuus = () => {
+
 
     return(
         <div className="yleis-container">

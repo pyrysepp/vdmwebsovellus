@@ -4,7 +4,9 @@ import './Navbar.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 
-//navigointi  sivun eri osioihin.
+// Sovelluksen ylälaidassa oleva navigointielementti. Navigointi toteutettu käyttämällä react routeria.
+// React router mahdollistaa sivun sisällön muuttamisen ilman uudelleenlataamista. 
+// Varsinainen siirtymisten käsittely tehty SwitchContainer komponentissa.
 
 
 

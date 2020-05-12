@@ -1,5 +1,10 @@
 import React from 'react'
 import './CommentSection.css'
+
+
+//Tekstikentät, johon käyttäjä laittaa nimimerkkinsä ja kommenttinsa ydinvoimasta
+
+
 const InputField = ({inputText, handleInput, addComment, userName, handleUsername}) => {
     
         const checkIfEnter = (event) => {

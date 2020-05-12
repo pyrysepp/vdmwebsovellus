@@ -2,7 +2,8 @@ import React from 'react';
 import './Home.css'
 import nuolialas from './images/chevron-down-solid.svg'
 
-//Kotinäkymä eli tää on se mikä tulee ku avaa sivun, löytyy oleellisin tieto kampanjasta?
+//Kotinäkymä eli sovelluksen landing page, jolle käyttäjä saapuu avatessaan sovelluksen ensimmäisen kerran. 
+//Sisältää kampanjatiivistelmän ja -videon. 
 
 export const Home = () => {
     return(

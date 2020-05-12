@@ -1,7 +1,11 @@
 import React, {useState} from 'react'
 import './CommentSection.css'
 
+// Yksittäinen kommentti
+
 const Comment = ({comment}) => {
+
+
     const [likes, setLikes] = useState(comment.likes)
 
     const [clicked, setClicked] = useState(false)
@@ -29,6 +33,7 @@ const Comment = ({comment}) => {
     )
 }
 
+// Mappaa propseina saadun kommenttilistan ja palauttaa monta yksittäistä kommenttia
 
 const CommentField = ({comments}) => {  
     return(

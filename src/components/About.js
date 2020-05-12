@@ -1,9 +1,7 @@
 import React from 'react'
 import './About.css'
 
-// Tällänen taustaa oisio, jossa kerrotaan 
-// jotain taustaa tästä kampanjasta 
-// ja sit esim keitä täs tiimis on ja sit yhteystiedot
+// Osio, jossa kerrotaan taustaa kampanjasta. mm. Keitä me olemme ja miksi kampanja on toteutettu.
 
 const TiimiJäsen = ({nimi}) => {
     return(

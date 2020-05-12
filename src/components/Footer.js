@@ -8,6 +8,9 @@ import {
   } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css'
 
+
+// Jokaisen osion alaosassa näkyvä footer, joka sisältää kampanjan somet, yhteystiedot sekä tekijänoikeudelliset seikat.
+
 const Socials = () => {
     return(
     <div className="social-icons">
