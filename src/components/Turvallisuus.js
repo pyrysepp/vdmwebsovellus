@@ -51,7 +51,7 @@ const Turvallisuus = () => {
                     <a href="https://studio.kauppalehti.fi/fennovoima-olemme-osa-ratkaisua/vaarallinen-vaarallisempi-ydinvoima">Kauppalehti & Fennovoima (ydinvoiman turvallisuus)</a>
                     <br></br>
                     <a href="http://www.posiva.fi/loppusijoitus/ydinjatehuolto/mita_ydinjate_on#.XqAp3sgzbIU">Posiva (ydinjäte)</a>
-                    <br/> <br/>
+                    <br></br>
                     <a href="https://www.stuk.fi/aiheet/ydinjatteet/ydinjatteet-suomessa">STUK (ydinjätteet Suomessa)</a>
                 </p>
             </div>
